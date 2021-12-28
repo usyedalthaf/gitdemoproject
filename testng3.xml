@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Dept">
+ <parameter name = "url" value = "www.levelzcomputing.com"/>
+  <test  name="personalloans">
+  <groups>
+  <run>
+  <exclude name = "smoke"/>
+  </run>
+  </groups>
+  <packages>
+  <package name = "Loans"/>
+    </packages>
+  </test> 
+</suite> 

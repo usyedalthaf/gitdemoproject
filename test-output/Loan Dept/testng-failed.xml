@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Loan Dept]">
+  <parameter name="url" value="www.levelzcomputing.com"/>
+  <test thread-count="5" name="personalloans(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Loans.NewTour">
+        <methods>
+          <include name="TestLogin"/>
+        </methods>
+      </class> <!-- Loans.NewTour -->
+    </classes>
+  </test> <!-- personalloans(failed) -->
+</suite> <!-- Failed suite [Loan Dept] -->
